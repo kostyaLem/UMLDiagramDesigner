@@ -10,11 +10,11 @@
         /// <summary>
         /// Тип создания типа
         /// </summary>
-        public virtual CreationType CreationType { get; set; }
+        public abstract CreationType CreationType { get; }
 
         /// <summary>
         /// Способ хранения в памяти
         /// </summary>
-        public virtual InMemoryStoredType StoredType { get; set; }
+        public abstract InMemoryStoredType StoredType { get; }
     }
 }
