@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMLDesigner", "UMLDesigner\UMLDesigner.csproj", "{C827000C-6859-4F54-831C-8689D71A5825}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMLDesigner", "UMLDesigner\UMLDesigner.csproj", "{C827000C-6859-4F54-831C-8689D71A5825}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{99B99ED4-77F7-4A44-9058-093A8CE42B45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMLDesigner.WPFTest", "UMLDesigner.WPFTest\UMLDesigner.WPFTest.csproj", "{48E97570-79EE-4CA2-8C08-F3ECB363337C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMLDesigner.WPFTest", "UMLDesigner.WPFTest\UMLDesigner.WPFTest.csproj", "{48E97570-79EE-4CA2-8C08-F3ECB363337C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMLDesigner.ConsoleTest", "UMLDesigner.ConsoleTest\UMLDesigner.ConsoleTest.csproj", "{8E535DE3-0AA0-4411-84AB-1BB694C06F6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMLDesigner.ConsoleTest", "UMLDesigner.ConsoleTest\UMLDesigner.ConsoleTest.csproj", "{8E535DE3-0AA0-4411-84AB-1BB694C06F6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMLDesigner.Controls", "UMLDesigner.Controls\UMLDesigner.Controls.csproj", "{C0D10BEF-42DE-4216-9B0B-13AD2C177C21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UMLDesigner.Controls", "UMLDesigner.Controls\UMLDesigner.Controls.csproj", "{C0D10BEF-42DE-4216-9B0B-13AD2C177C21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMLDesigner.Models", "UMLDesigner.Models\UMLDesigner.Models.csproj", "{75780D13-FF04-43AF-B1F3-083037B7B2F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{C0D10BEF-42DE-4216-9B0B-13AD2C177C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0D10BEF-42DE-4216-9B0B-13AD2C177C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0D10BEF-42DE-4216-9B0B-13AD2C177C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75780D13-FF04-43AF-B1F3-083037B7B2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75780D13-FF04-43AF-B1F3-083037B7B2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75780D13-FF04-43AF-B1F3-083037B7B2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75780D13-FF04-43AF-B1F3-083037B7B2F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
