@@ -1,5 +1,8 @@
 ﻿namespace UMLDesigner.Models.Type
 {
+    /// <summary>
+    /// Тип значения
+    /// </summary>
     public class ValueType : TypeBase
     {
         public override CreationType CreationType { get; }

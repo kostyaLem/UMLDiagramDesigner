@@ -11,6 +11,9 @@
 
         public override InMemoryStoredType StoredType { get; } = InMemoryStoredType.Reference;
 
+        /// <summary>
+        /// Тип-родитель
+        /// </summary>
         public ReferenceType ParentType { get; set; }
 
         public ReferenceType(string name, CreationType creationType, AccessModifierType modifierType) : base(name)
