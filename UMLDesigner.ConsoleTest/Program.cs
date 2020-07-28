@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UMLDiagramDesigner
+namespace UMLDesigner.ConsoleTest
 {
     class Program
     {
