@@ -3,7 +3,7 @@
     /// <summary>
     /// https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
     /// </summary>
-    public enum AccessModifier
+    public enum AccessModifierType
     {
         Public,
         Private,

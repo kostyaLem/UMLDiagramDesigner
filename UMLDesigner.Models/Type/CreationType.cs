@@ -1,5 +1,8 @@
 ﻿namespace UMLDesigner.Models.Type
 {
+    /// <summary>
+    /// Способ происхождения типа
+    /// </summary>
     public enum CreationType
     {
         /// <summary>

@@ -1,22 +1,22 @@
 ﻿namespace UMLDesigner.Models.Type
 {
+    /// <summary>
+    /// Ссылочный тип данных
+    /// </summary>
     public class ReferenceType : TypeBase
     {
-        public override string Name { get; set; }
-
         public override CreationType CreationType { get; }
 
-        public override InMemoryStoredType StoredType { get; }
+        public override AccessModifierType AccessModifierType { get; }
 
-        public TypeBase ParentType { get; set; }
+        public override InMemoryStoredType StoredType { get; } = InMemoryStoredType.Reference;
 
-        public ReferenceType(string name, TypeBase parantType, CreationType creationType)
+        public ReferenceType ParentType { get; set; }
+
+        public ReferenceType(string name, CreationType creationType, AccessModifierType modifierType) : base(name)
         {
-            Name = name;
-            ParentType = parantType;
             CreationType = creationType;
-
-            StoredType = InMemoryStoredType.Reference;
+            AccessModifierType = modifierType;
         }
     }
 }

@@ -1,5 +1,8 @@
 ﻿namespace UMLDesigner.Models.Type
 {
+    /// <summary>
+    /// Способ хранения типа в памяти
+    /// </summary>
     public enum InMemoryStoredType
     {
         /// <summary>

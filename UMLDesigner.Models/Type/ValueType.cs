@@ -2,18 +2,16 @@
 {
     public class ValueType : TypeBase
     {
-        public override string Name { get; set; }
-
         public override CreationType CreationType { get; }
 
-        public override InMemoryStoredType StoredType { get; }
+        public override AccessModifierType AccessModifierType { get; }
 
-        public ValueType(string name, CreationType creationType)
+        public override InMemoryStoredType StoredType { get; } = InMemoryStoredType.Value;
+
+        public ValueType(string name, CreationType creationType, AccessModifierType modifierType) : base(name)
         {
-            Name = name;
             CreationType = creationType;
-
-            StoredType = InMemoryStoredType.Value;
+            AccessModifierType = modifierType;
         }
     }
 }
